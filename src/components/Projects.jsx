@@ -76,7 +76,7 @@ function ProjectCard({ project }) {
     <div className="project-card">
       <div className="project-card-img">
         <a href={project.html_url} target="_blank" rel="noreferrer">
-          <img src={project.image} alt={project.name} loading="lazy" />
+          <img src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, '')}`} alt={project.name} loading="lazy" />
         </a>
       </div>
       <div className="project-card-top">

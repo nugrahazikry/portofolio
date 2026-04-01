@@ -9,6 +9,12 @@
   position: relative;
 }
 
+@media (max-width: 480px) {
+  .hero {
+    padding: 7rem 1rem 4rem;
+  }
+}
+
 .hero-content {
   max-width: 800px;
   margin: 0 auto;

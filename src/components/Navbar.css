@@ -97,4 +97,5 @@
 
 @media (max-width: 580px) {
   .navbar-links { display: none; }
+  .navbar { padding: 1rem 1rem; }
 }

@@ -88,11 +88,11 @@ export default function Teaching() {
             <div className="swipe-card" key={i}>
               {t.link ? (
                 <a href={t.link} target="_blank" rel="noreferrer" className="swipe-card-img">
-                  <img src={t.image} alt={t.title} loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}${t.image.replace(/^\//, '')}`} alt={t.title} loading="lazy" />
                 </a>
               ) : (
                 <div className="swipe-card-img">
-                  <img src={t.image} alt={t.title} loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}${t.image.replace(/^\//, '')}`} alt={t.title} loading="lazy" />
                 </div>
               )}
               <h3 className="swipe-card-title">{t.title}</h3>

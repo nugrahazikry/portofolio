@@ -78,7 +78,7 @@ export default function Achievements() {
           {visible.map((a, i) => (
             <div className="swipe-card" key={i}>
               <div className="swipe-card-img">
-                <img src={a.image} alt={a.title} loading="lazy" />
+                <img src={`${import.meta.env.BASE_URL}${a.image.replace(/^\//, '')}`} alt={a.title} loading="lazy" />
               </div>
               <h3 className="swipe-card-title">{a.title}</h3>
               <div className="swipe-card-meta">

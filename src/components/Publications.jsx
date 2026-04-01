@@ -69,7 +69,7 @@ export default function Publications() {
           {visible.map((p, i) => (
             <div className="swipe-card" key={i}>
               <a href={p.link} target="_blank" rel="noreferrer" className="swipe-card-img">
-                <img src={p.image} alt={p.title} loading="lazy" />
+                <img src={`${import.meta.env.BASE_URL}${p.image.replace(/^\//, '')}`} alt={p.title} loading="lazy" />
               </a>
               <h3 className="swipe-card-title">{p.title}</h3>
               <div className="swipe-card-meta">

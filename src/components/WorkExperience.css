@@ -198,6 +198,32 @@
 .exp-num-highlight.nums-visible {
   color: #f5c518;
 }
+  .exp-projects-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 10px;
+  }
+
+  .exp-table-header,
+  .exp-table-row {
+    min-width: 560px;
+    grid-template-columns: 130px 1fr 220px;
+  }
+
+  .exp-card {
+    padding: 1rem;
+  }
+
+  .exp-title {
+    font-size: 1.1rem;
+  }
+
+  .exp-project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+  }
+}
 
 .exp-project-tech {
   display: flex;
@@ -224,22 +250,24 @@
   box-shadow: 0 0 8px rgba(106, 239, 255, 0.5), 0 0 18px rgba(106, 239, 255, 0.2);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
-  .exp-table-header {
-    display: none;
+  .exp-projects-table {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
+  .exp-table-header,
   .exp-table-row {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
+    min-width: 580px;
+    grid-template-columns: 130px 1fr 220px;
   }
 
-  .exp-project-name {
-    color: var(--accent);
+  .exp-card {
+    padding: 1rem;
   }
 
-  .exp-header {
-    flex-direction: column;
+  .exp-title {
+    font-size: 1.1rem;
   }
 }

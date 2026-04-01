@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://nugrahazikry-github.io",
+  "homepage": "https://nugrahazikry.github.io/portofolio",
   "type": "module",
   "scripts": {
     "dev": "vite",

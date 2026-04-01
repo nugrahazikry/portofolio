@@ -14,7 +14,7 @@ export default function About() {
         <div className="about-image-col">
           <div className="about-photo-wrap">
             <img
-              src="/images/PRDR3976357462_1.jpg"
+              src={`${import.meta.env.BASE_URL}images/PRDR3976357462_1.jpg`}
               alt="Zikry Adjie Nugraha"
               className="about-photo"
             />
@@ -51,7 +51,7 @@ export default function About() {
 
           {/* CTA buttons */}
           <div className="about-cta">
-            <a href="/CV_Zikry_Adjie_Nugraha.pdf" className="btn-outline" download>
+            <a href={`${import.meta.env.BASE_URL}CV_Zikry_Adjie_Nugraha.pdf`} className="btn-outline" download>
               Download My CV
             </a>
             <a href="#contact" className="btn-outline">

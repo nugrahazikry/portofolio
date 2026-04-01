@@ -71,6 +71,18 @@ h1, h2, h3 { font-family: var(--font-head); }
   border-top: 1px solid var(--border);
 }
 
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  /* iOS Safari fix: background-attachment:fixed causes blank/broken background */
+  body {
+    background-attachment: scroll;
+  }
+
+  section {
+    padding: 1.2rem 1rem;
+  }
+}
+
 .section-title {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;

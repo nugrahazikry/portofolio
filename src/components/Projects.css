@@ -221,6 +221,20 @@
   gap: 1rem;
 }
 
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card-img {
+    height: 220px;
+  }
+
+  .repos-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .repo-card {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.07);

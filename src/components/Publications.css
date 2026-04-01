@@ -171,8 +171,26 @@
   text-shadow: 0 0 8px rgba(232, 200, 74, 0.7), 0 0 18px rgba(232, 200, 74, 0.3);
 }
 
+@media (max-width: 900px) {
+  .swipe-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 480px) {
-  .swipe-card {
-    flex: 0 0 280px;
+  .swipe-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .swipe-btn-left  { left: -14px; }
+  .swipe-btn-right { right: -14px; }
+  
+  .swipe-card-title {
+    font-size: 0.88rem;
+    min-height: unset;
+  }
+  
+  .swipe-card-excerpt {
+    font-size: 0.75rem;
   }
 }

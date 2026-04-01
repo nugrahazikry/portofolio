@@ -68,7 +68,8 @@
   letter-spacing: 0.02em;
   margin-bottom: 0.4rem;
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .about-role {

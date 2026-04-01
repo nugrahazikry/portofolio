@@ -98,7 +98,7 @@ const experiences = [
         name: "AI Market Detection",
         description:[
           "Deployed an LLM-powered company profiling system classifying **20,000+ company descriptions** by focus, target clients, and industry type, replacing manual categorization entirely.",
-          "Automated batch processing from raw Excel input to enriched, structured output, reducing classification turnaround from days to hours."
+          "Automated batch processing from raw Excel input to enriched, structured output, reducing classification turnaround from **5 days** to **1 hour**."
         ],
         tech: ["Python", "LangChain", "OpenAI GPT-4o-mini", 
           "Regex", "BeautifulSoup", "Selenium", "AWS S3"],
@@ -137,7 +137,7 @@ const experiences = [
       "Designed and monitored the ETL BigQuery, Python data transformation, and automation for numerous projects within Google Cloud Platform.",
       "Analyzed and gained business solutions for data-driven decision-making from Google Analytics and visualized it into Looker Studio dashboard."
     ],
-    clients: " 2 Automotive Clients, 1 Digital Banking Client, 1 E-Commerce Platform, 1 Health & Wellness Brand, 1 Aquaculture Tech Startup",
+    clients: " 2 Automotive Clients, 1 Digital Banking Client, 1 E-Commerce Platform, 1 FMCG Brand, 1 Aquaculture Tech Startup",
     projects: [
       {
         name: "Computer Vision Creative Analysis Automation",
@@ -182,7 +182,7 @@ const experiences = [
       {
         name: "Business Dashboard",
         description:[
-          "Built and automated data pipelines on Google Cloud Platform for **5+ client projects**.",
+          "Built and automated daily GCP data pipelines across **3 clients** (e-commerce, FMCG, automotive), eliminating manual reporting workflows.",
           "Delivered real-time Looker dashboards surfacing cross-platform performance metrics, replacing manual reporting workflows for stakeholders.",
           "Standardized order data integration across marketplaces, enabling consistent, comparable analytics for e-commerce clients."
         ],
